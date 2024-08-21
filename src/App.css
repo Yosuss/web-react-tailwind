@@ -1,0 +1,65 @@
+
+*  {
+    /* background: #000; */
+    /* font-family: "Fira Sans Condensed"; */
+}
+
+.bg-mars {
+    background-image: url('./assets/mars.jpg');
+}  
+
+.grid-rows-layout {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+/* Gradien awal (normal state) */
+.gradient-text {
+    background: linear-gradient(90deg, #a1c4fd, #c2e9fb); /* Biru muda ke biru lebih muda */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    transition: background 0.3s ease;
+}
+
+  /* Gradien saat hover */
+.gradient-text:hover {
+    background: linear-gradient(90deg, #c2e9fb, #d4a1fd); /* Biru lebih muda ke ungu muda */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+    /* cursor */
+/* .background {
+    background-image: url(${backgroundImage});
+} */
+
+
+@media screen and (max-width: 640px){
+    .container, .container .navbar {
+        font-size: 1rem;
+    }
+    
+    .container .content {
+        margin: 0;
+        padding: 0;
+    }
+
+    .content .title {
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .container, .container .navbar {
+        font-size: .8rem
+    }
+
+    .content .title {
+        font-size: 2.3rem
+    }
+}
