@@ -9,7 +9,7 @@ function App() {
         <div className="navbar flex text-3xl justify-between my-4 font-serif">
           <div className="logo-made capitalize grid grid-cols-2">
             <h1 className="uppercase shadow-xl">alf</h1>
-            <h1 className="font-medium">made by arga</h1>
+            <h1 className="font-medium">made by anugrah </h1>
           </div>
           <div className="about-me capitalize">
             <h1>about me</h1>
